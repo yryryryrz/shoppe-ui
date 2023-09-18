@@ -1,0 +1,32 @@
+/* mobile & tablet */
+@media  (max-width: 1023px) {
+    .footer__download{
+        margin-left: 10px;
+    }
+    .footer__heading{
+        margin-left: 12px;
+    }
+    .footer-item__link{
+        margin-left: 10px;
+    }
+}
+/* tablet */
+@media (min-width: 740px) and (max-width:1023px ){
+    
+}
+
+/* mobile */
+@media  (max-width: 739px) {
+    .footer__license{
+        flex: 0 0 50%;
+        max-width: 100%;
+    }
+    .footer__license-policy{
+        width: 100%;
+        flex-wrap: wrap;
+        text-align: left;
+    }
+    .footer__text{
+        flex-wrap: wrap;
+    }
+}
